@@ -2,12 +2,16 @@
 import React from "react";
 
 const TodoForm = () => {
-    return (
-        <div>
-            <input type="text" />
-            <button></button>
-        </div>
-    )
-}
+  return (
+    <div className="pt-10">
+      <input
+        type="text"
+        placeholder="Add Task"
+        className="input input-bordered input-info w-full max-w-xs mr-2"
+      />
+      <button className="btn glass">Add Task</button>
+    </div>
+  );
+};
 
-export default TodoForm
+export default TodoForm;
